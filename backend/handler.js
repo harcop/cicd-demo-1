@@ -1,5 +1,5 @@
 "use strict";
-
+console.log(process.env.FOO);
 module.exports.listTodos = async event => {
   const todos = ["Wake up at 4AM", "Workout", "Eat breakfast"];
   return {
