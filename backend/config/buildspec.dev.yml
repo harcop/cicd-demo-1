@@ -11,6 +11,11 @@ phases:
       - cd backend
       - npm install --silent
       - echo Finished installing todo API dependencies
+  test:
+    commands:
+      - echo running test
+      - npm i jest --save-dev
+      - npm run test
   build:
     commands:
       - echo Deploying todo API
