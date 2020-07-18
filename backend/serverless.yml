@@ -3,6 +3,7 @@ service: mybackend-todo
 provider:
   name: aws
   runtime: nodejs10.x
+  profile: twap-dev-sls
 
 functions:
   listTodos:
