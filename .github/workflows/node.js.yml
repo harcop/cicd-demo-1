@@ -27,4 +27,5 @@ jobs:
     - run: cd backend
     - run: npm i
     - run: npm i jest --save-dev
+    - run: cd backend
     - run: npm test
