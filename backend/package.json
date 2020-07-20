@@ -4,7 +4,7 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "deploy": "sh deploy.sh",
+    "deploy": "clear && jest",
     "test": "jest"
   },
   "keywords": [],
