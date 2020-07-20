@@ -19,6 +19,7 @@ phases:
   post_build:
     commands:
       - echo running test
+      - npm i jest
       - npm run test
       - echo Finished running test
 
