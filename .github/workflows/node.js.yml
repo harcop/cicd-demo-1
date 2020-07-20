@@ -25,6 +25,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm i
+      working-directory: backend
     - run: npm i jest --save-dev
+      working-directory: backend
     - run: npm test
       working-directory: backend
